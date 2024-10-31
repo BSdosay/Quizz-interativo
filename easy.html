@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo - Nível Fácil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Interativo - Nível Fácil</h1>
+    </header>
+    <main>
+        <div id="quiz-container" class="hidden">
+            <h2 id="question"></h2>
+            <div id="options"></div>
+            <button id="next-button" class="hidden">Próxima Pergunta</button>
+            <div id="feedback" class="hidden"></div>
+        </div>
+        <div id="score-container" class="hidden">
+            <h2>Seu Resultado: <span id="score"></span></h2>
+            <h3 id="average-feedback"></h3>
+            <a href="index.html"><button id="restart-button">Reiniciar</button></a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Quiz Interativo. Todos os direitos reservados.</p>
+    </footer>
+    <script src="easy.js"></script>
+</body>
+</html>
